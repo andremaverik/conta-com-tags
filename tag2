@@ -1,0 +1,17 @@
+/**Classe da conta
+* @author André da Silva Galvão
+*/
+
+
+public class Conta {
+	public static void main(String args[]) {
+		ContaTeste u1 = new ContaTeste();
+		u1.mostrarConta();
+		ContaTeste u2 = new ContaTeste("André", 8340, 5000);
+		u2.mostrarConta();
+		u1.SetNome("André");
+		u1.setPotenciaMax(14000);
+		u1.mostrarConta();
+	}
+	
+}
